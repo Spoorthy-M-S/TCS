@@ -1,8 +1,8 @@
 package TCS;
 public class PrimeInRange {
     public static void main(String[] args) {
-        int x=1;
-        int y=20;
+        int x=20;
+        int y=120;
         for(int i=x;i<=y;i++){
             if(isPrime(i)){
                 System.out.println(i);
